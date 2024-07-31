@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Currency Converter</h1>
+        <div>
+            <label for="amount">Amount and Convert to:</label>
+            <div class="amount-currency">
+                <input type="number" id="amount" placeholder="Enter amount">
+                <select id="fromCurrency">
+                    <option value="USD" data-symbol="$">USD</option>
+                    <option value="EUR" data-symbol="€">EUR</option>
+                    <option value="GBP" data-symbol="£">GBP</option>
+                    <option value="JPY" data-symbol="¥">JPY</option>
+                    <!-- Add more currencies as needed -->
+                </select>
+            </div>
+        </div>
+        <div>
+            <label for="toCurrency">To Currency:</label>
+            <select id="toCurrency">
+                <option value="USD" data-symbol="$">USD</option>
+                <option value="EUR" data-symbol="€">EUR</option>
+                <option value="GBP" data-symbol="£">GBP</option>
+                <option value="JPY" data-symbol="¥">JPY</option>
+                <!-- Add more currencies as needed -->
+            </select>
+        </div>
+        <div>
+            <h2>Converted Amount: <span id="result">0</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Light grey-blue background for the page */
+    margin: 0;
+}
+
+.converter {
+    background: #f9f5e9; /* Cream background for the converter box */
+    padding: 40px; /* Increased padding for a larger box */
+    border-radius: 12px; /* Rounded corners for a smoother look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow for a subtle effect */
+    text-align: center;
+    max-width: 600px; /* Larger width for the converter box */
+    width: 100%;
+}
+
+.converter h1 {
+    color: #333333; /* Darker text color for better readability */
+    margin-bottom: 20px;
+    font-size: 1.6em; /* Larger font size for the heading */
+    font-weight: 600; /* Slightly bolder font weight for emphasis */
+}
+
+.converter div {
+    margin-bottom: 20px; /* Increased space between elements */
+}
+
+.converter label {
+    display: block;
+    margin-bottom: 10px; /* Slightly increased margin for labels */
+    color: #666666; /* Lighter grey color for labels */
+    font-weight: 500; /* Medium font weight for a balanced look */
+}
+
+.amount-currency {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amount-currency input {
+    width: calc(100% - 160px); /* Adjust width to make space for the select box */
+    padding: 12px; /* Increased padding for better touch */
+    border: 1px solid #dcdcdc; /* Light border for input field */
+    border-radius: 8px; /* Rounded corners for input field */
+    box-sizing: border-box;
+    font-size: 1em; /* Consistent font size for input field */
+}
+
+.amount-currency select {
+    width: 150px;
+    padding: 12px;
+    border: 1px solid #dcdcdc; /* Light border for select box */
+    border-radius: 8px; /* Rounded corners for select box */
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background for the select box */
+    font-size: 1em; /* Consistent font size for select box */
+}
+
+.converter select {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch */
+    border: 1px solid #dcdcdc; /* Light border for select box */
+    border-radius: 8px; /* Rounded corners for select box */
+    background-color: #ffffff; /* White background for consistency */
+    font-size: 1em; /* Consistent font size for select box */
+}
+
+.converter h2 {
+    margin-top: 20px;
+    color: #333333; /* Darker text color for result */
+    font-size: 1.3em; /* Slightly larger font size for emphasis */
+    font-weight: 600; /* Slightly bolder font weight for emphasis */
+}
+
+.converter span {
+    font-weight: 700; /* Bolder text color for emphasis */
+    color: #1a1a1a; /* Slightly darker color for better readability */
+}
